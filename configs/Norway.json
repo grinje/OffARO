@@ -4,7 +4,7 @@
   "description": "",
   "author": "LB5ZH-4",
   "created": "2026-02-17T10:22:44.028Z",
-  "updated": "2026-02-24T14:37:08.339Z",
+  "updated": "2026-03-03T08:41:21.375Z",
   "tileSources": [
     {
       "id": "norgeskart-topo",
@@ -388,28 +388,6 @@
       "baseLayerCompatible": [
         "all"
       ],
-      "configSourceRepoId": "default-asmes",
-      "configSourceFile": "configs/Norway.json"
-    },
-    {
-      "id": "custom_7cd65071-ece9-4d1b-a441-08af90463c96",
-      "name": "RepeaterBook Norway",
-      "url": "https://www.repeaterbook.com/api/exportROW.php",
-      "attribution": "Custom REPEATERBOOK Source",
-      "maxZoom": 18,
-      "minZoom": 0,
-      "type": "custom",
-      "enabled": true,
-      "isOverlay": true,
-      "disableCache": false,
-      "serviceType": "repeaterbook",
-      "repeaterbookConfig": {
-        "countries": [
-          "Norway"
-        ],
-        "endpoint": "row",
-        "cacheExpiry": 604800000
-      },
       "configSourceRepoId": "default-asmes",
       "configSourceFile": "configs/Norway.json"
     }
